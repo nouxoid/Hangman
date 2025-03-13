@@ -1,0 +1,79 @@
+.guess-area {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.word-display {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.word-letter {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0 5px;
+  width: 40px;
+  border-bottom: 3px solid #333;
+  text-align: center;
+}
+
+.word-space {
+  width: 20px;
+}
+
+.letter-selection {
+  width: 100%;
+  text-align: center;
+}
+
+.letter-selection h3 {
+  margin-bottom: 15px;
+  color: #4d96ff;
+}
+
+.alphabet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.letter-button {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid #4d96ff;
+  background-color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.letter-button:hover:not(:disabled) {
+  background-color: #e6f0ff;
+}
+
+.letter-button.correct {
+  background-color: #6bcb77;
+  color: white;
+  border-color: #6bcb77;
+}
+
+.letter-button.incorrect {
+  background-color: #ff6b6b;
+  color: white;
+  border-color: #ff6b6b;
+}
+
+.letter-button:disabled {
+  cursor: not-allowed;
+}

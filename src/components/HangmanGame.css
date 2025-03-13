@@ -1,0 +1,51 @@
+.hangman-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.game-info {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.game-info h3 {
+  color: #4d96ff;
+  margin-bottom: 5px;
+}
+
+.game-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.win h2 {
+  color: #6bcb77;
+  font-size: 2rem;
+}
+
+.lose h2 {
+  color: #ff6b6b;
+  font-size: 1.8rem;
+}
+
+.play-again-button {
+  background-color: #ffa62b;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Comic Neue', cursive;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.play-again-button:hover {
+  background-color: #ff9100;
+}

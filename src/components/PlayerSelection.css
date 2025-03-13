@@ -1,0 +1,77 @@
+.player-selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.player-inputs {
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.player-input {
+  margin-bottom: 15px;
+}
+
+.player-input label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #4d96ff;
+}
+
+.player-input input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #6bcb77;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'Comic Neue', cursive;
+}
+
+.word-setter-selection {
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.word-setter-selection h3 {
+  color: #ff6b6b;
+  margin-bottom: 10px;
+}
+
+.radio-options {
+  display: flex;
+  justify-content: space-around;
+}
+
+.radio-options label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.radio-options input {
+  margin-right: 8px;
+  transform: scale(1.2);
+}
+
+.start-button {
+  background-color: #6bcb77;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Comic Neue', cursive;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.start-button:hover {
+  background-color: #5ab567;
+}
